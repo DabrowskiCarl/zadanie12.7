@@ -31,4 +31,5 @@ Card.prototype = {
             }
         });
     }
+    
 };
