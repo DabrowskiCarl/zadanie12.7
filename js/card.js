@@ -14,7 +14,6 @@ function Card(id, name) {
             self.removeCard();
         });
 
-        card.append(cardChangeName);
         card.append(cardDeleteBtn);
         cardDescription.text(self.name);
         card.append(cardDescription);
