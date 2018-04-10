@@ -32,7 +32,7 @@ function Column(id, name) {
                     self.createCard(card);
                 }
             });
-        })
+        });
         // KONSTRUOWANIE ELEMENTU KOLUMNY
         column.append(columnTitle)
             .append(columnDelete)
